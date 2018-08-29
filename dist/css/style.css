@@ -21,6 +21,11 @@ img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
 /* Section */
 .section {
   padding: 2rem 0;
@@ -31,8 +36,50 @@ img {
   margin: 0;
 }
 
-.section {
+.section h3 {
   font-size: 2rem;
+}
+
+/* Buttons */
+
+.btn {
+  padding: 1rem;
+  color: #fff;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background: var(--primary-color-hover);
+}
+
+.btn-secondary {
+  background: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background: var(--secondary-color-hover);
+}
+
+/* Text Colors */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: #333;
 }
 
 /* Showcase */
@@ -59,16 +106,24 @@ img {
   font-size: 2rem;
 }
 
-.lead {
-  font-size: 1.3rem;
-}
-
 /* Utility Classes */
 .container {
   max-width: 1180px;
   text-align: center;
   margin: 0 auto;
   padding: 0 3rem;
+}
+
+.lead {
+  font-size: 1.3rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.mt {
+  margin-top: 1rem;
 }
 
 /* Navigation  */
